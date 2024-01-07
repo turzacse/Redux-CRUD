@@ -11,6 +11,8 @@ import Main from './Layout/Main.jsx';
 import ViewBooks from './Feature/Books/ViewBooks.jsx';
 import AddBooks from './Feature/Books/AddBooks.jsx';
 import EditBooks from './Feature/Books/EditBooks.jsx';
+import { Provider } from 'react-redux';
+import store from './app/store.js';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +41,7 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <Provider store={store}>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </Provider>,
 )
