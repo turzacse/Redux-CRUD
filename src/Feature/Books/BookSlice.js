@@ -11,8 +11,8 @@ const intialStates = {
     books: [
         { "id": 1, "title": "Quiet Well", "author": "Turza" },
         { "id": 2, "title": "Beautiful BD", "author": "Montasir" },
-        { "id": 3, "title": "Serenity Lake", "author": "Anderson" },
-        { "id": 4, "title": "Mystic Forest", "author": "Elena" },
+        { "id": 3, "title": "Serenity Lake", "author": "Siam" },
+        { "id": 4, "title": "Mystic Forest", "author": "Fahim" },
         { "id": 5, "title": "Eternal Sunshine", "author": "Harrison" },
         { "id": 6, "title": "Whispering Meadows", "author": "Sophie" },
         { "id": 7, "title": "Tranquil Echoes", "author": "Nathan" },
